@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
+import { View} from 'react-native';
 
-import style from './style';
+import styles from './style';
 
 const Container = ({ children }) => (
-  <View style={style.container}>
+  <View style={styles.container}>
     {children}
   </View>
 );
@@ -15,4 +15,3 @@ Container.propTypes = {
 };
 
 export default Container;
-
